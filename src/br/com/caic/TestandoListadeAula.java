@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Comparison;
-
 public class TestandoListadeAula {
 	
 	public static void main(String[] args) {
