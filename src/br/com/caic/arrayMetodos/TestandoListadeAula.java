@@ -1,4 +1,4 @@
-package br.com.caic;
+package br.com.caic.arrayMetodos;
 
 import java.util.ArrayList;
 import java.util.Collections;

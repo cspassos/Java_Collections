@@ -1,4 +1,4 @@
-package br.com.caic;
+package br.com.caic.arrayMetodos;
 
 public class Aula implements Comparable<Aula> {
 	
