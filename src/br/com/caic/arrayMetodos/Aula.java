@@ -25,7 +25,7 @@ public class Aula implements Comparable<Aula> {
 		return "Aula [titulo=" + titulo + ", tempo=" + tempo + " minutos]";
 	}
 
-	@Override
+	@Override //Ordena os objetos pelo titulo
 	public int compareTo(Aula outraAula) {
 		return this.titulo.compareTo(outraAula.titulo);
 	}
