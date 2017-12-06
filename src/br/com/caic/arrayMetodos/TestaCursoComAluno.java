@@ -33,7 +33,7 @@ public class TestaCursoComAluno {
 		System.out.println("");
 		Aluno turini = new Aluno("Rodrigo Turini", 258156);
 		System.out.println("O aluno " + turini + " está matriculado?");
-		System.out.println(javaColecoes.estaMatriculado(turini));
+		System.out.println(javaColecoes.estaMatriculado(turini));  
 		
 		System.out.println("a1 equals turini?");
 		System.out.println(a1.equals(turini));

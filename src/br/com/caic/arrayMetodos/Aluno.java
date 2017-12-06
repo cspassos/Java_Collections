@@ -16,7 +16,7 @@ public class Aluno {
 	@Override
 	public boolean equals(Object obj) {
 		Aluno outro = (Aluno) obj;
-		return this.nome.equals(outro);//Mostrar que tem que ter o mesmo nome, se tiver já é igual
+		return this.nome.equals(outro.nome);//Mostrar que tem que ter o mesmo nome, se tiver já é igual
 	}
 	
 	@Override
