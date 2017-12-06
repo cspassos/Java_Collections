@@ -3,6 +3,7 @@ package br.com.caic.arrayMetodos;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -11,8 +12,8 @@ public class Curso {
 	
 	private String nome;
 	private String instrutor;
-	private List<Aula> aulas = new ArrayList<Aula>();
-	private Set<Aluno> alunos = new HashSet<>();
+	private List<Aula> aulas = new LinkedList<Aula>();
+	private Set<Aluno> alunos = new LinkedHashSet<>();
 	
 	public Curso(String nome, String instrutor) {
 		this.nome = nome;

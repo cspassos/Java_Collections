@@ -1,5 +1,8 @@
 package br.com.caic.arrayMetodos;
 
+import java.util.Iterator;
+import java.util.Set;
+
 public class TestaCursoComAluno {
 	
 	public static void main(String[] args) {
@@ -9,7 +12,7 @@ public class TestaCursoComAluno {
 		javaColecoes.adiciona(new Aula("B teste aula 2", 31));
 		javaColecoes.adiciona(new Aula("A teste aula 3", 41));
 		
-		Aluno a1 = new Aluno("Caic Souza Passos", 258156);
+		Aluno a1 = new Aluno("Rodrigo Turini", 258156);
 		Aluno a2 = new Aluno("Guilherme Ramos Barbosa", 000214);
 		Aluno a3 = new Aluno("Ramos Souza", 333388);
 	
@@ -34,6 +37,18 @@ public class TestaCursoComAluno {
 		
 		System.out.println("a1 equals turini?");
 		System.out.println(a1.equals(turini));
+		
+		
+		System.out.println("*********************************************************************");
+		System.out.println("");
+		//metodo antigo antes do java 5, que se usava no lugar do foreach 
+		//Utilizando iterator
+		Set<Aluno> alunos = javaColecoes.getAlunos();
+		Iterator<Aluno> iterador = alunos.iterator();
+		while (iterador.hasNext()) {
+			Aluno proximo = iterador.next();
+			System.out.println(proximo);
+		}
 
 	}
 }
